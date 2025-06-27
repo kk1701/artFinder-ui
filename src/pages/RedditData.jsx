@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import LoaderHome from "../components/LoaderHome";
 
-const FASTAPI_URL = 'http://localhost:8000';
+const FASTAPI_URL = import.meta.env.VITE_BACKEND_API;
 
 function RedditData() {
   const [redditData, setRedditData] = useState(null);
