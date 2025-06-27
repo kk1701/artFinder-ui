@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import SubmitButton from "../components/SubmitButton";
 
-const FASTAPI_URL = 'http://localhost:8000';
+const FASTAPI_URL = import.meta.env.VITE_BACKEND_API;
 
 export default function ProductForm() {
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm();

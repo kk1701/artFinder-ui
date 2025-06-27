@@ -16,7 +16,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl no-underline font-bold tracking-wide text-white hover:text-blue-400 transition duration-300"
         >
-          Automated Research and Trigger Finder
+          Automated Market Research and Trigger Finder
         </Link>
 
         {/* Desktop Nav Links */}
