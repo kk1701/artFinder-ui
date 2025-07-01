@@ -51,8 +51,8 @@ const Navbar = () => {
             <NavLink to="/" label="Home" onClick={toggleMenu} />
             <NavLink to="/profiles" label="Profiles" onClick={toggleMenu} />
             <NavLink
-              to="/interview-experiences"
-              label="Interview Experiences"
+              to="/team"
+              label="Team"
               onClick={toggleMenu}
             />
           </div>
